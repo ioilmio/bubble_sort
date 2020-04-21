@@ -1,8 +1,8 @@
+arr = ["f", "g", "c", "r", "a", "b"]
+
 def bubble_sort(arr)
   yield(arr)
 end
-
-arr = [5, 4, 3, 2, 1]
 
 bubble_sort(arr) do
   loop do
@@ -17,5 +17,4 @@ bubble_sort(arr) do
       break if count == arr.length
     end
   end
-  return
 end
