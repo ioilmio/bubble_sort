@@ -1,4 +1,4 @@
-arr = ["f", "g", "c", "r", "a", "b"]
+arr = ['f', 'g', 'c', 'r', 'a', 'b']
 
 def bubble_sort(arr)
   yield(arr)
