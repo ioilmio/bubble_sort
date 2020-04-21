@@ -6,7 +6,7 @@ arr = [5, 4, 3, 2, 1]
 
 bubble_sort(arr) do
   loop do
-    l = arr.length - 1 
+    l = arr.length - 1
     count = 0
     l.times do |x|
       if arr[x] > arr[x + 1]
@@ -19,4 +19,3 @@ bubble_sort(arr) do
   end
   return
 end
-
