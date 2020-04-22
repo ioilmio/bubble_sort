@@ -2,9 +2,6 @@
 
 > This project is about implementing the simple but slow bubble sorting algorithm.
 
-
-![screenshot](./app_screenshot.png)
-
 It will compare numbers in an array and swap two adjacent number if the one on the left is bigger than the one on the right,until every number will be sorted in ascending order.
 
 ## Built With 
