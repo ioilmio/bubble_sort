@@ -1,4 +1,3 @@
-# arr = %w[a j h tu nmo ki]
 def bubble_sort(arr)
   yield(arr)
 end
