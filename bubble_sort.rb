@@ -9,9 +9,7 @@ bubble_sort(arr) do
   counter = 0
   while counter < arr.length
     l.times do |x|
-      if arr[x] > arr[x + 1]
-        arr[x], arr[x + 1] = arr[x + 1], arr[x]
-      end
+      arr[x], arr[x + 1] = arr[x + 1], arr[x] if arr[x] > arr[x + 1]
     end
     counter += 1
   end
