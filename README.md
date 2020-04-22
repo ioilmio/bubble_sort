@@ -1,63 +1,60 @@
-# Project Name
+# Bubble Sort Algorithm
 
-> One paragraph statement about the project.
+> This project is about implementing the simple but slow bubble sorting algorithm.
 
-![screenshot](./app_screenshot.png)
+It will compare numbers in an array and swap two adjacent number if the one on the left is bigger than the one on the right,until every number will be sorted in ascending order.
 
-Additional description about the project and its features.
+## Built With 
 
-## Built With
+- Ruby 2.6.5
+- Linted with Rubocop
+- Love & Patience
 
-- Major languages,
-- frameworks,
-- technologies used
 
 ## Live Demo
 
 [Live Demo Link](https://livedemo.com)
 
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+## Getting Starte
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+Ruby 2.*.* or superior version installed and running
+
 ### Setup
 
-### Install
+Clone the repo into your system
 
 ### Usage
 
-### Run tests
+Give an array of numbers or strings and it will order them for you
 
-### Deployment
+Just run the filename inside IRB or any terminal
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Illuminato Salvatore**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@ioilmio](https://github.com/ioilmio)
+- Twitter: [@ioilmio](https://twitter.com/ioilmio)
+- Linkedin: [Illuminato Salvatore](https://www.linkedin.com/in/illuminato-salvatore/)
 
-👤 **Author2**
+👤 **Guilherme Recordòn**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@guirecordon](https://github.com/guirecordon)
+- Twitter: [@RecordonG](https://twitter.com/RecordonG)
+- Linkedin: [Guilherme Recordòn](https://www.linkedin.com/in/gui-recordon-marketingmba/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/ioilmio/bubble_sort/issues).
 
 ## Show your support
 
