@@ -1,9 +1,4 @@
 def bubble_sort(arr)
-  yield(arr)
-end
-arr = [5, 4, 3, 2, 1]
-
-bubble_sort(arr) do
   l = arr.length - 1
   counter = 0
   while counter < arr.length
@@ -14,3 +9,6 @@ bubble_sort(arr) do
   end
   print arr
 end
+
+arr = [5, 4, 3, 2, 1]
+bubble_sort(arr)
