@@ -7,7 +7,7 @@ def bubble_sort(arr)
     end
     counter += 1
   end
-  p arr
+  arr
 end
 
 def bubble_sort_by(arr)
@@ -15,16 +15,16 @@ def bubble_sort_by(arr)
   counter = 0
   while counter < arr.length
     l.times do |x|
-      yield (arr[x], arr[x + 1] = arr[x + 1], arr[x]) if arr[x].length < arr[x + 1].length
+      yield arr[x], arr[x + 1] = arr[x + 1], arr[x] if arr[x].length < arr[x + 1].length
     end
     counter += 1
   end
-  p arr
+  arr
 end
 
 arr = [17, 12, 85, 42, 23]
-bubble_sort(arr)
+p bubble_sort(arr)
 
-bubble_sort_by(%w[thanks for your review]) do |right, left|
+p bubble_sort_by(%w[thanks for your review]) { |right, left|
   left.length - right.length
-end
+}
