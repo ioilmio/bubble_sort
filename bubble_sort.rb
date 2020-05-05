@@ -22,9 +22,3 @@ def bubble_sort_by(arr)
   arr
 end
 
-arr = [17, 12, 85, 42, 23]
-p bubble_sort(arr)
-
-p bubble_sort_by(%w[thank for your review]) { |right, left|
-  left.length - right.length
-}
