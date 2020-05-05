@@ -15,9 +15,7 @@ def bubble_sort_by(arr)
   counter = 0
   while counter < arr.length
     l.times do |x|
-      if arr[x].length > arr[x + 1].length
-        yield (arr[x], arr[x + 1] = arr[x + 1], arr[x])
-      end
+      yield (arr[x], arr[x + 1] = arr[x + 1], arr[x]) if arr[x].length > arr[x + 1].length # rubocop:disable Lint/Syntax:unexpected token tCOMMA,Lint/Syntax: unexpected token tRPAREN
     end
     counter += 1
   end
