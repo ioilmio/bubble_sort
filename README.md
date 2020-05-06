@@ -12,7 +12,9 @@ It will compare numbers in an array and swap two adjacent number if the one on t
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://repl.it/@ioilmio/bubblesort)
+
+Open bubble_sort.rb in repl.it and play with it
 
 
 
