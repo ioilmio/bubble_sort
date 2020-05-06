@@ -10,13 +10,13 @@ It will compare numbers in an array and swap two adjacent number if the one on t
 - Linted with Rubocop
 - Love & Patience
 
-
 ## Live Demo
 
 [Live Demo Link](https://livedemo.com)
 
 
-## Getting Starte
+
+## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
@@ -30,7 +30,7 @@ Clone the repo into your system
 
 ### Usage
 
-Give an array of numbers or strings and it will order them for you
+Give an array of numbers or strings and it will order them for you in ascending order using bubble sort algorithm
 
 Just run the filename inside IRB or any terminal
 
