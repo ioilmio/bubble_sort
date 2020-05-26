@@ -16,6 +16,8 @@ It will compare numbers in an array and swap two adjacent number if the one on t
 
 Open bubble_sort.rb in repl.it and play with it
 
+[![Run on Repl.it](https://repl.it/badge/github/ioilmio/bubble_sort)](https://repl.it/github/ioilmio/bubble_sort)
+
 
 
 ## Getting Started
